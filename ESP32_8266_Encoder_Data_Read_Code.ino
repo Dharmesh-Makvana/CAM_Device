@@ -53,7 +53,7 @@ void readSensor()
   digitalWrite(CSn2, LOW);
   delayMicroseconds(1); //Waiting for Tclkfe
 
-  // Passing 10 times, from 0 to 9
+  // Passing 10 times, from 0 to 11
   for(int x=0; x<12; x++)
   {
   digitalWrite(CLK1, LOW);
